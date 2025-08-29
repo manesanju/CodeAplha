@@ -8,7 +8,7 @@ def get_bot_response(user_input):
     
     # Greeting responses
     if user_input in ["hello", "hi", "hey", "greetings"]:
-        return "Hi there! 😊 How can I help you today?"
+        return "Hi Sanjivani! 😊 How can I help you today?"
     
     elif user_input in ["good morning", "morning"]:
         return "Good morning! ☀️ Hope you're having a great day!"
@@ -123,4 +123,5 @@ def main():
 
 # Run the chatbot
 if __name__ == "__main__":
+
     main()
